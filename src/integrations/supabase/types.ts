@@ -355,6 +355,10 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      can_view_profile: {
+        Args: { _target: string; _viewer: string }
+        Returns: boolean
+      }
       get_domain_stats: {
         Args: never
         Returns: {
@@ -375,6 +379,7 @@ export type Database = {
           teams: number
         }[]
       }
+      is_active_member: { Args: { _uid: string }; Returns: boolean }
       is_profile_ready: { Args: { _uid: string }; Returns: boolean }
       is_room_member: {
         Args: { _room: string; _uid: string }

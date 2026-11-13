@@ -8,6 +8,13 @@
       "when": 1794562850640,
       "tag": "0000_connecttogether_core",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794576606538,
+      "tag": "0001_scope_member_visibility",
+      "breakpoints": true
     }
   ]
 }
