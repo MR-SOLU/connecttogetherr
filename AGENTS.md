@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Interest domains, subtopics, message topic tags and moods live in `src/lib/domains.ts` (static), not the database — rooms/teams store the domain slug as text.
+- Profile-complete and room-size rules are mirrored in `src/lib/rules.ts` and enforced in the database (`is_profile_ready`, capacity triggers); change both together.
+- Signed-in pages live under `src/routes/_authenticated/` and read/write through the browser client with RLS; public counts come from SECURITY DEFINER stats functions via a public server function.
+- Auth state has a single `onAuthStateChange` listener in `AuthProvider` (`src/hooks/use-auth.tsx`); don't add others.

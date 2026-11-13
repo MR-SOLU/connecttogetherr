@@ -1,11 +1,11 @@
 # ConnectTogether roadmap
 
-- [ ] Design system (Terracotta & Sage, Syne + Plus Jakarta Sans)
-- [ ] Database: profiles, rooms, members, messages, teams, reports, blocks, public stats
-- [ ] Public pages: Home (live counts + domain dropdown), Domains, Safety
-- [ ] Auth: email sign up with verification, sign in, password reset
-- [ ] Onboarding: complete profile required
-- [ ] Connect: domain/subtopic/mood dropdowns, random match, create room
-- [ ] Room: live chat with "talking about" dropdown, perspectives board, teams, report/block
-- [ ] Teams page, Profile page
-- [ ] Tests for profile-complete and room-size rules
+- [x] Design system (Terracotta & Sage, Syne + Plus Jakarta Sans)
+- [x] Database: profiles, rooms, members, messages, teams, reports, blocks, public stats
+- [x] Public pages: Home (live counts + domain dropdown), Domains, Safety
+- [x] Auth: email sign up with verification, sign in, password reset
+- [x] Onboarding: complete profile required
+- [x] Connect: domain/subtopic/mood dropdowns, random match, create room
+- [x] Room: live chat with "talking about" dropdown, perspectives board, teams, report/block
+- [x] Teams page, Profile page
+- [x] Tests for profile-complete and room-size rules
